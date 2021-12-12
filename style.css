@@ -62,6 +62,7 @@
     left: 160;
     top: -110;
     border-radius: 30px;
+    transform-origin: 95% 25% ;
 }
 
 #right-hand{
@@ -71,7 +72,8 @@
     position: relative;
     left: 360;
     top: -210;
-    
+    transform-origin: 20% 20%;
+
     border-radius: 30px;
     
 }
