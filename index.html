@@ -11,6 +11,7 @@
         </div>
         <div id="head">
             <span id="eyes"></span>
+            <input type="color" id="color_head" value="#96c03a" style="position: relative; top: -100px; left: 200;"> 
         </div>
 
         <div id="body">
@@ -39,8 +40,11 @@
         var right_hand = document.getElementById("right-hand");
         var my_eyes = document.getElementById("eyes");
         var eyess = document.getElementById("eyes")
+        var color_head = document.getElementById("color_head")
 
-
+        color_head.onclick = function(){
+            my_head.style.backgroundColor = color_head.value
+        }
 
         my_head.onclick = function () {
             my_eyes.style.width = "10px"
